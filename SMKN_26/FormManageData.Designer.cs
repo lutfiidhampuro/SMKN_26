@@ -47,7 +47,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(300, 29);
+            this.label1.Location = new System.Drawing.Point(186, 30);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(342, 48);
             this.label1.TabIndex = 0;
@@ -55,7 +55,7 @@
             // 
             // tbSearch
             // 
-            this.tbSearch.Location = new System.Drawing.Point(180, 120);
+            this.tbSearch.Location = new System.Drawing.Point(252, 125);
             this.tbSearch.Name = "tbSearch";
             this.tbSearch.Size = new System.Drawing.Size(300, 26);
             this.tbSearch.TabIndex = 9;
@@ -64,7 +64,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(63, 126);
+            this.label2.Location = new System.Drawing.Point(135, 131);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(60, 20);
             this.label2.TabIndex = 8;
@@ -74,7 +74,7 @@
             // 
             this.DGVData.AllowUserToOrderColumns = true;
             this.DGVData.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.DGVData.Location = new System.Drawing.Point(57, 167);
+            this.DGVData.Location = new System.Drawing.Point(129, 172);
             this.DGVData.Name = "DGVData";
             this.DGVData.RowHeadersWidth = 62;
             this.DGVData.RowTemplate.Height = 28;
@@ -84,15 +84,15 @@
             // 
             // tbPassword
             // 
-            this.tbPassword.Location = new System.Drawing.Point(180, 429);
+            this.tbPassword.Location = new System.Drawing.Point(252, 434);
             this.tbPassword.Name = "tbPassword";
-            this.tbPassword.Size = new System.Drawing.Size(219, 26);
+            this.tbPassword.Size = new System.Drawing.Size(300, 26);
             this.tbPassword.TabIndex = 14;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(63, 435);
+            this.label3.Location = new System.Drawing.Point(135, 440);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(78, 20);
             this.label3.TabIndex = 13;
@@ -100,15 +100,15 @@
             // 
             // tbUsername
             // 
-            this.tbUsername.Location = new System.Drawing.Point(180, 381);
+            this.tbUsername.Location = new System.Drawing.Point(252, 386);
             this.tbUsername.Name = "tbUsername";
-            this.tbUsername.Size = new System.Drawing.Size(219, 26);
+            this.tbUsername.Size = new System.Drawing.Size(300, 26);
             this.tbUsername.TabIndex = 12;
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(63, 387);
+            this.label4.Location = new System.Drawing.Point(135, 392);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(83, 20);
             this.label4.TabIndex = 11;
@@ -116,7 +116,7 @@
             // 
             // btnInsert
             // 
-            this.btnInsert.Location = new System.Drawing.Point(446, 408);
+            this.btnInsert.Location = new System.Drawing.Point(183, 489);
             this.btnInsert.Name = "btnInsert";
             this.btnInsert.Size = new System.Drawing.Size(128, 33);
             this.btnInsert.TabIndex = 15;
@@ -126,7 +126,7 @@
             // 
             // btnUpdate
             // 
-            this.btnUpdate.Location = new System.Drawing.Point(603, 408);
+            this.btnUpdate.Location = new System.Drawing.Point(340, 489);
             this.btnUpdate.Name = "btnUpdate";
             this.btnUpdate.Size = new System.Drawing.Size(128, 33);
             this.btnUpdate.TabIndex = 16;
@@ -136,7 +136,7 @@
             // 
             // btnDelete
             // 
-            this.btnDelete.Location = new System.Drawing.Point(764, 408);
+            this.btnDelete.Location = new System.Drawing.Point(268, 542);
             this.btnDelete.Name = "btnDelete";
             this.btnDelete.Size = new System.Drawing.Size(128, 33);
             this.btnDelete.TabIndex = 17;
@@ -146,7 +146,7 @@
             // 
             // btnBack
             // 
-            this.btnBack.Location = new System.Drawing.Point(857, 4);
+            this.btnBack.Location = new System.Drawing.Point(12, 12);
             this.btnBack.Name = "btnBack";
             this.btnBack.Size = new System.Drawing.Size(83, 29);
             this.btnBack.TabIndex = 18;
@@ -158,7 +158,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(948, 542);
+            this.ClientSize = new System.Drawing.Size(670, 652);
             this.Controls.Add(this.btnBack);
             this.Controls.Add(this.btnDelete);
             this.Controls.Add(this.btnUpdate);

@@ -13,6 +13,8 @@ namespace SMKN_26
 {
     public partial class FormManageData : Form
     {
+        private DataBaseDataContext db = new DataBaseDataContext();
+
         private int selectedId;
         public FormManageData()
         {
@@ -22,7 +24,6 @@ namespace SMKN_26
         {
 
             DGVData.Columns.Clear();
-            var db = new DataBaseDataContext();
             var data = db.SIJA_ITCs.Where(a => a.Username.Contains(tbSearch.Text))
                 .Select(a => new
                 {
@@ -41,7 +42,6 @@ namespace SMKN_26
 
         private void btnInsert_Click(object sender, EventArgs e)
         {
-            var db = new DataBaseDataContext();
             var newData = new SIJA_ITC();
             newData.Username = tbUsername.Text;
             newData.Password = tbPassword.Text;
@@ -68,7 +68,6 @@ namespace SMKN_26
 
         private void btnUpdate_Click(object sender, EventArgs e)
         {
-            var db = new DataBaseDataContext();
             var data = db.SIJA_ITCs.Where(x => x.id == selectedId).FirstOrDefault();
 
             if (data == null)
@@ -102,7 +101,6 @@ namespace SMKN_26
 
         private void btnDelete_Click(object sender, EventArgs e)
         {
-            var db = new DataBaseDataContext();
             var data = db.SIJA_ITCs.Where(x => x.id == selectedId).FirstOrDefault();
 
             if (data == null)
