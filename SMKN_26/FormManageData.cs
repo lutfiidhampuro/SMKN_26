@@ -111,7 +111,7 @@ namespace SMKN_26
 
             db.SIJA_ITCs.DeleteOnSubmit(data);
             db.SubmitChanges();
-            MessageBox.Show("Data Not Found!");
+            MessageBox.Show("Delete Data Successfully!");
             showData();
 
             tbUsername.Clear();
